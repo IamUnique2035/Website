@@ -280,6 +280,36 @@ nav a.active {
   color: var(--navy);
   margin-bottom: 0.2rem;
 }
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.social-icon {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fbfcfe;
+  transition: 0.2s ease;
+  box-shadow: var(--shadow);
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  border-color: rgba(8,42,92,0.25);
+  background: rgba(8,42,92,0.04);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--navy);
+}
 
 section { padding: 5rem 0; }
 
